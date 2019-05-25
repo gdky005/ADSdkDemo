@@ -15,7 +15,6 @@ android {
         targetSdkVersion build_versions.target_sdk
         versionCode 1
         versionName "1.0"
-        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
         release {
@@ -34,5 +33,6 @@ dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
     implementation"org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
 
-//    implementation 'com.github.ZhuoKeTeam:zhuoke-sdk:1.0.10'
+    implementation 'com.github.ZhuoKeTeam:zhuoke-sdk:1.1.0'
+
 }
